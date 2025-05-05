@@ -106,10 +106,13 @@ figure {
   background-image: url('public/footer-bg.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
+  flex-wrap: nowrap;
+
 }
 
 .footer-column {
   min-width: 170px;
+
 }
 
 .h5-color {
