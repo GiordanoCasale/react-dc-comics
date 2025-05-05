@@ -18,14 +18,17 @@ header {
 
 figure {
   margin: 0 710px 0 0;
+  display: flex;
+  align-items: center;
 }
 
 img {
   width: 100px;
   margin-top: 20px;
+  padding-bottom: 20px;
 }
 
-ul {
+.lista-header {
   display: flex;
   list-style-type: none;
   padding: 0;
@@ -38,8 +41,59 @@ ul {
 
 .blue-underline {
   text-decoration: underline;
-  text-underline-offset: 68px;
+  text-underline-offset: 59px;
   text-decoration-thickness: 5px;
   text-decoration-color: #0282F9;
 
+}
+
+/*Main*/
+
+.main-top {
+  background-color: #1C1C1C;
+  display: flex;
+  align-items: center;
+  padding: 60px 0 60px 0;
+}
+
+.main-bottom {
+  background-color: #0282F9;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+.text {
+  color: #FFFBF2;
+  font-size: 30px;
+  margin-left: 450px;
+}
+
+/*ricordare questo per futuri esercizi*/
+.Main-list {
+  list-style-type: none;
+  color: white;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.Main-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-size {
+  width: 70px;
+  height: auto;
+}
+
+.Main-list span {
+  font-size: 20px;
+}
+
+.locator-size {
+  width: 50px;
 }
