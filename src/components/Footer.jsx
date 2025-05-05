@@ -52,10 +52,19 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer-bottom">
-                <div className="right">
-
+                <div className="left">
+                    <h2 className="footer-text">Sign-Up Now!</h2>
                 </div>
-                <div className="left"></div>
+                <div className="right">
+                    <ul className="list-footer-bottom">
+                        <li><h2 className="h2">FOLLOW US</h2></li>
+                        <li><img src="src/assets/img/footer-facebook.png" alt="facebook" /></li>
+                        <li><img src="src/assets/img/footer-twitter.png" alt="twitter" /></li>
+                        <li><img src="src/assets/img/footer-youtube.png" alt="youtube" /></li>
+                        <li><img src="src/assets/img/footer-pinterest.png" alt="pinterest" /></li>
+                        <li><img src="src/assets/img/footer-periscope.png" alt="periscope" /></li>
+                    </ul>
+                </div>
             </div>
         </footer>
     );
