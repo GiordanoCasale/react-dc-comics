@@ -101,6 +101,9 @@ figure {
   color: white;
   padding: 15px 70px 15px 70px;
   font-size: 15px;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
 
 }
 
