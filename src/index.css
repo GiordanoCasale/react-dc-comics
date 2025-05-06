@@ -101,92 +101,118 @@ figure {
 /*Footer*/
 /*ricordare per prossimi esercizi*/
 .footer-top {
-  display: flex;
-  padding: 90px 0 90px 0px;
-  background-image: url('public/footer-bg.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  flex-wrap: nowrap;
-
-}
-
-.footer-column {
-  min-width: 170px;
-
-}
-
-.h5-color {
-  color: #FFF9F0;
-  font-size: 23px;
-  margin-bottom: 20px;
-}
-
-.ul-settings {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  color: #716A6F;
-
-}
-
-.ul-settings li {
-  margin-bottom: 5px;
-  font-size: 15px;
-}
-
-.ul-settings li:hover {
-  color: #FFF;
-  cursor: pointer;
-}
-
-.container-logo {
+  background-image: url("public/footer-bg.jpg");
+  background-size: cover;
+  color: white;
+  padding: 186px 0;
   position: relative;
+  overflow: hidden;
 }
 
-.Logo-bg {
-  overflow: hidden;
+.footer-top .container {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-cols {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 491px;
+}
+
+.footer-col {
+  margin-right: 20px;
+}
+
+.footer-top h3 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 16px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.footer-top ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.footer-top ul li {
+  margin-bottom: 5px;
+}
+
+.footer-top ul li a {
+  color: #797979;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-top ul li a:hover {
+  color: white;
+}
+
+/* Logo DC nel footer */
+.dc-bg-logo {
   position: absolute;
-  top: -144px;
-  left: 716px;
+  top: 0;
+  right: 16%;
+  width: 800px;
+  height: 100%;
+  background-image: url("src/assets/img/dc-logo-bg.png");
+  background-size: 800px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  /* Limitare il logo solo al footer top */
+  bottom: 0;
 }
 
 .footer-bottom {
   background-color: #303030;
-  width: 100%;
-  display: flex;
-  position: fixed;
-  height: 350px;
-
+  padding: 30px 0;
+  position: relative;
+  z-index: 2;
 }
 
-.left {
-  width: 50%;
+.footer-bottom .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
-.right {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-text {
-  border: solid 3px #0A74D7;
-  display: inline-block;
+.sign-up-btn {
+  background-color: transparent;
+  border: 2px solid #0282f9;
   color: white;
-  padding: 20px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.list-footer-bottom {
-  list-style-type: none;
+.social {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
-.h2 {
-  margin-top: 5px;
-  color: #027DEA;
+.social span {
+  color: #0282f9;
+  font-weight: bold;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
 }
