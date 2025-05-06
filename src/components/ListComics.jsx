@@ -1,3 +1,5 @@
+import ComicCard from "./ComicCard";
+
 const comics = [
     {
         id: 1,
@@ -158,7 +160,18 @@ const ListComics = () => {
         <section id="comics">
             <h2>Lista fumetti</h2>
             <div className="container-list card-container">
-                <div className="prod-card"></div>
+                <ComicCard props={comics[0]} />
+                <ComicCard props={comics[1]} />
+                <ComicCard props={comics[2]} />
+                <ComicCard props={comics[3]} />
+                <ComicCard props={comics[4]} />
+                <ComicCard props={comics[5]} />
+                <ComicCard props={comics[6]} />
+                <ComicCard props={comics[7]} />
+                <ComicCard props={comics[8]} />
+                <ComicCard props={comics[9]} />
+                <ComicCard props={comics[10]} />
+                <ComicCard props={comics[11]} />
             </div>
         </section>
     );
