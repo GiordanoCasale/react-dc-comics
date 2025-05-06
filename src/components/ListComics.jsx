@@ -172,6 +172,7 @@ const ListComics = () => {
                 <ComicCard props={comics[10]} />
                 <ComicCard props={comics[11]} />
             </div>
+            <input className="btn" type="button" value="Load More" />
         </section>
     );
 };
