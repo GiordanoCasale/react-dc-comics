@@ -53,20 +53,27 @@ figure {
   background-color: #1C1C1C;
   display: flex;
   align-items: center;
-  padding: 60px 0 60px 0;
+  padding: 60px 0;
 }
+
+.container-list {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.prod-card {}
 
 .main-bottom {
   background-color: #0282F9;
   display: flex;
   justify-content: center;
   height: 200px;
-}
-
-.text {
-  color: #FFFBF2;
-  font-size: 30px;
-  margin-left: 450px;
 }
 
 /*ricordare questo per futuri esercizi*/

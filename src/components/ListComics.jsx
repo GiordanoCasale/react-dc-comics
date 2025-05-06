@@ -152,3 +152,16 @@ const comics = [
         writers: ["Joëlle Jones"],
     },
 ];
+
+const ListComics = () => {
+    return (
+        <section id="comics">
+            <h2>Lista fumetti</h2>
+            <div className="container-list card-container">
+                <div className="prod-card"></div>
+            </div>
+        </section>
+    );
+};
+
+export default ListComics;

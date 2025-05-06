@@ -1,7 +1,11 @@
+import ListComics from "./ListComics";
+
 const Main = () => {
     return (
         <main>
-            <div className="main-top "><h1 className="text">--&gt; Content goes here &lt;--</h1></div>
+            <div className="main-top ">
+                <ListComics />
+            </div>
             <div className="main-bottom">
                 <ul className="Main-list">
                     <li>
