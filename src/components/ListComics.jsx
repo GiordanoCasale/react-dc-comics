@@ -159,18 +159,7 @@ const ListComics = () => {
     return (
         <section id="comics">
             <div className="container-list">
-                <ComicCard props={comics[0]} />
-                <ComicCard props={comics[1]} />
-                <ComicCard props={comics[2]} />
-                <ComicCard props={comics[3]} />
-                <ComicCard props={comics[4]} />
-                <ComicCard props={comics[5]} />
-                <ComicCard props={comics[6]} />
-                <ComicCard props={comics[7]} />
-                <ComicCard props={comics[8]} />
-                <ComicCard props={comics[9]} />
-                <ComicCard props={comics[10]} />
-                <ComicCard props={comics[11]} />
+
             </div>
             <input className="btn" type="button" value="Load More" />
         </section>
