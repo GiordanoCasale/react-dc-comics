@@ -35,20 +35,22 @@ figure {
   gap: 40px;
 }
 
-.highlight {
-  color: #0282F9;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.blue-underline {
+a:hover {
+  color: #0282F9;
+  transition: color 0.3s ease;
   text-decoration: underline;
   text-underline-offset: 59px;
   text-decoration-thickness: 5px;
   text-decoration-color: #0282F9;
-
 }
 
-/*Main*/
 
+/*Main*/
 .main-top {
   background-color: #1C1C1C;
   display: flex;
