@@ -159,7 +159,9 @@ const ListComics = () => {
     return (
         <section id="comics">
             <div className="container-list">
-
+                {comics.map((props) => (
+                    <ComicCard props={props} />
+                ))}
             </div>
             <input className="btn" type="button" value="Load More" />
         </section>
